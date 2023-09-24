@@ -31,10 +31,11 @@ body {
 nav {
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 nav h1 {
-    background: linear-gradient(301deg, #7676c7, #000);
+    background: linear-gradient(135deg, #46009b, #8143d3, #a57bea);
     color: #fff;
     text-align: center;
     padding: 15px;
@@ -115,11 +116,18 @@ main h3 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background: linear-gradient(45deg, #e077e7, #bc68e2, #979de6);
+    border-radius: 15px;
+    transition: transform 0.2s;
+}
+
+.service-column:hover {
+    transform: scale(1.04, 1.04);
 }
 
 .service-column img {
-    width: 180px;
-    height: auto;
+    width: 75%;
+    height: 75%;
     margin-bottom: 10px;
 }
 
@@ -128,7 +136,7 @@ main h3 {
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 800px) {
+@media (max-width: 700px), (max-height: 700px) {
     .service-column {
         flex-basis: calc(50% - 20px);
         max-width: calc(50% - 20px);
