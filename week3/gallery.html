@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Gallery - Wanderlust Voyages</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div>
+      <nav>
+        <h1 class="headeraH1">Wanderlust Voyages | Travel Agency</h1>
+
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html" class="current">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="tasks.html">Tasks</a></li>
+        </ul>
+      </nav>
+      
+      <main class="services">
+        <h1>Gallery</h1>
+
+        <section class="gallery-container">
+          <div class="slide">
+            <img src="images/gallery/1.png">
+          </div>
+          <div class="navigation">
+            <button class="left" onclick="changeSlide(-1)">PREV</button>
+            <button class="right" onclick="changeSlide(1)">NEXT</button>
+          </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-container">
+          <h2>Ready For Adventure?</h2>
+          <p>Join us today and discover the difference we can make for you!</p>
+          <a href="contact.html" class="cta-button">Contact us</a>
+        </section>
+      </main>
+      <footer>
+          <ul>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://twitter.com/">Twitter</a></li>
+            <li ><a href="https://www.instagram.com/">Instagram</a></li>
+          </ul>
+        <p >&copy; 2024 Wanderlust Voyages | Travel Agency. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+  <script src="gallery.js"></script>
+</html>
