@@ -1,0 +1,42 @@
+body {
+    font-family: 'Helvetica', cursive; 
+    font-size: 1.15rem;
+    color: #2b143a;
+}
+    
+html {
+    scroll-behavior: smooth; 
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color: #472161;
+}
+
+#fetch {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(15deg, #840cd4, #c92cc9);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    color: #ffffff;
+    border-radius:2px;
+    border-color: rgb(75, 13, 113);
+    border-width: 2px;
+    font-size: 1rem;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#fetch:hover {
+    background: linear-gradient(15deg, #710ab6, #a123a1);
+}
+
+#fetch:active {
+    background: linear-gradient(15deg, #5a0792, #801b80);
+}
